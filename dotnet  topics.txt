@@ -1,0 +1,58 @@
+.NET Core ը ինչ ա
+CLR
+CIL
+JIT
+Managed code and unmanaged կոդ
+
+ինչո՞ւ վերադարձնել -1 Main-ում
+
+111 էջ
+
+== vs Equal
+
+
+LINQ - documentation-ով նայել
+CIL- առանձին
+ADO-ն ուղղակի իմանալ ինչ է։
+WPF թեթև
+ASP .NET core առանձին գրքով նայել
+
+AZUR
+
+
+///// հարցեր
+projname.UnitTests
+
+    public class ReflactionTests
+    {
+        [TestMethod]
+        public void GetNumberOfMethods_RAmmount_Returns3()
+        {
+            //var reservation = new Reservation();
+            var reflaction = new Interview.Reflaction();
+            var result = reflaction
+            
+        }
+    }
+
+
+1. interface-ներում լիքը ժեղ ու զիբիլ կա
+2. start()-ի մասին .. առանձին interface-ում ունենալ
+// _registerModel = new RegisterModel(); վատ պրակտիկա, առաջ ոնց էր
+3. using-ը
+4. մնացյալ new-երը
+5. Քննարկել վինդոուս ֆորմի դեպքում ոնց անել DI-ն
+7. mainMenu ո՞նց հասկանալ ինչը թեստավորել։ Ոնցոր թե իմաստ չկա թեստավորման
+
+34.5ր-ից 36ր-ից, մօք
+
+MOQ-ից հարցեր
+1. կոնստրուկտորը թեստավորվո՞ւմ ա։
+2. SignIn-ը համ կանչվում ա, համ առանձին հայտարարվում։ Երկու տեղում էլ թեստավորվո՞ւմ ա
+3. Event-ները ո՞նց թեստավորել, երբ ավելացվում են
+
+45:50
+
+1. console log -> logger
+
+anonimux method vs lambda

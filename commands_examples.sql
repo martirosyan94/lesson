@@ -1,0 +1,32 @@
+USE interview
+
+Create table EMPLOYEE (
+	ID int, 
+	NAME nvarchar(30), 
+	USERS int, 
+	AGE int, 
+	ADDRESS nvarchar(30), 
+	SALARY float, 
+	PRIMARY KEY (ID)
+)
+
+Create table EMPLOYEE_PAN (
+	ID int, 
+	UIN int,
+	PRIMARY KEY (ID)
+)
+
+INSERT INTO EMPLOYEE(ID,NAME,USERS,AGE,ADDRESS,SALARY)
+values 
+(2, 'Ilena', 9162, 27, 'Paris', 7545.8),
+(3, 'Bob', 9162, 27, 'Paris', 7545.8),
+(4, 'Julia', 9162, 27, 'Paris', 7545.8)
+
+INSERT INTO EMPLOYEE_PAN(ID, UIN)
+values 
+(2, 23),
+(4, 44)
+
+SELECT EMPLOYEE.ID, EMPLOYEE_PAN.UIN
+FROM EMPLOYEE
+FULL OUTER JOIN EMPLOYEE_PAN ON EMPLOYEE.ID=EMPLOYEE_PAN.ID;
